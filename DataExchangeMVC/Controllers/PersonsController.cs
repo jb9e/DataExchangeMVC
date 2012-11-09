@@ -47,7 +47,7 @@ namespace DataExchangeMVC.Controllers
 		// POST: /Persons/Create
 
 		[HttpPost]
-		[Authorize(Users="Administrator")]
+		//[Authorize(Users="Administrator")]
 		public ActionResult Create(Person person)
 		{
 			if (ModelState.IsValid)
